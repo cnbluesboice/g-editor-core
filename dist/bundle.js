@@ -7233,7 +7233,6 @@
                           return e.setAttribute("draggable", "true"),
                           e.setAttribute("id", "addEdgeBtnId"),
                           [l.addEventListener(e, "dragstart", function() {
-                            console.log(e, 1111111);
                               var r = n.item
                                 , a = function(e) {
                                   for (var t = 1; t < arguments.length; t++) {
