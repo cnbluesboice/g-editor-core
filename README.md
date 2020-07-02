@@ -1,1 +1,0 @@
-# g-editor-core
