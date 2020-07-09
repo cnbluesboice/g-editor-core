@@ -743,6 +743,7 @@
           },
           edgeActivedStyle: {
               stroke: "#1890FF",
+              lineWidth: 4,
               strokeOpacity: .92
           },
           nodeActivedStyle: {
@@ -7224,7 +7225,7 @@
                   return {
                       name: "forkAndLink",
                       render: function() {
-                          return '\n          <div style="\n            width: 11px;\n            height: 11px;\n            cursor: copy;\n            background-image: url(https://gw.alipayobjects.com/zos/rmsportal/yWAiQOmucbYMCpwkvTBP.svg)\n          "></div>\n        '
+                          return '\n          <div style="\n            width: 11px;\n            height: 11px;\n            cursor: copy;\n            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAIAAAAmzuBxAAAACXBIWXMAAAsSAAALEgHS3X78AAAArElEQVQYlYWQrw6CYBTFj0wbiUagQTH4ADgqgRewGXwuCgY2HgBegJlpBKCx0bBA+8Jxd3zqZG6ccHfub7t/dyQBtE9kNcoes4J5QODgcoRnQUQyb+knjCsOE0mJcSUkbyVFM0rSjFzpw42sxu30bgic79p4lvCshlH2iFxNV4pc2Ww/K9jmT/ViHlfhswLCVC+4yE++fpgYpjQCB0X3f0rRydnbt2z/Y+OnAF7TbbvXXHv+kAAAAABJRU5ErkJggg==)\n          "></div>\n        '
                       },
                       bindEvent: function(e, t) {
                           var n = this
