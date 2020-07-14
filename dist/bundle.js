@@ -754,7 +754,7 @@
                 stroke: "#1890FF"
             },
             edgeSelectedStyle: {
-                lineWidth: 2,
+                lineWidth: 4,
                 strokeOpacity: .92,
                 // stroke: "#A3B1BF"
                 stroke: "#1890FF"
